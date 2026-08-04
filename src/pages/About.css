@@ -97,6 +97,25 @@
   color: var(--color-text-secondary);
 }
 
+.team-card__social {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-4);
+  margin-top: var(--space-4);
+}
+
+.team-card__social a {
+  color: var(--color-text-secondary);
+  transition: color var(--transition-base);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-card__social a:hover {
+  color: var(--color-primary);
+}
+
 @media (max-width: 768px) {
   .about-story__text {
     text-align: left;
