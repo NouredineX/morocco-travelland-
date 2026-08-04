@@ -1,5 +1,5 @@
-import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useParams, useNavigate } from 'react-router-dom';
 import SEOHead from '../components/seo/SEOHead';
 import { breadcrumbSchema } from '../utils/schema';
 import { useLocalizer } from '../utils/localize';
@@ -50,9 +50,10 @@ import { mockPosts } from '../data/blogPosts';
 export default function Blog() {
   const { t } = useTranslation();
   const { getLocalized } = useLocalizer();
-  const [activePostSlug, setActivePostSlug] = useState<string | null>(null);
+  const { slug } = useParams<{ slug?: string }>();
+  const navigate = useNavigate();
 
-  const activePost = mockPosts.find(p => p.slug === activePostSlug);
+  const activePost = slug ? mockPosts.find(p => p.slug === slug) : null;
 
   return (
     <>
@@ -90,7 +91,7 @@ export default function Blog() {
           {/* Post Content */}
           <article className="section post-body-sec">
             <div className="container container--narrow">
-              <button onClick={() => setActivePostSlug(null)} className="btn btn--secondary btn--sm" style={{ marginBottom: 'var(--space-8)' }}>
+              <button onClick={() => navigate('/blog')} className="btn btn--secondary btn--sm" style={{ marginBottom: 'var(--space-8)' }}>
                 ← {t('blog.backToArticles') || 'Back to Articles'}
               </button>
               <div className="post-content-html" dangerouslySetInnerHTML={{ __html: getLocalized(activePost, 'content') }}></div>
@@ -120,7 +121,7 @@ export default function Blog() {
             <div className="page-hero__overlay"></div>
             <div className="page-hero__content container">
               <h1 className="page-hero__title">{t('blog.title')}</h1>
-              <p className="page-hero__subtitle">Expert travel guides, cultural insights, and tips directly from our local tour guides</p>
+              <p className="page-hero__subtitle">{t('blog.subtitle')}</p>
             </div>
           </section>
 
@@ -135,13 +136,13 @@ export default function Blog() {
                     </div>
                     <div className="blog-card__body">
                       <span className="blog-card__cat">{getLocalized(post, 'category')}</span>
-                      <h2 className="blog-card__title" onClick={() => setActivePostSlug(post.slug)} style={{ cursor: 'pointer' }}>
+                      <h2 className="blog-card__title" onClick={() => navigate('/blog/' + post.slug)} style={{ cursor: 'pointer' }}>
                         {getLocalized(post, 'title')}
                       </h2>
                       <p className="blog-card__excerpt">{getLocalized(post, 'excerpt')}</p>
                       <div className="blog-card__footer">
                         <span className="blog-card__meta">{post.date} • {post.readTime} {t('blog.minRead') || 'read'}</span>
-                        <button onClick={() => setActivePostSlug(post.slug)} className="btn btn--secondary btn--sm">
+                        <button onClick={() => navigate('/blog/' + post.slug)} className="btn btn--secondary btn--sm">
                           {t('blog.readMore')}
                         </button>
                       </div>

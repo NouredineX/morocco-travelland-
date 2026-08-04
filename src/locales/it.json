@@ -132,7 +132,12 @@
     "privateGuide": "Guida privata certificata",
     "bookingRequest": "Richiesta di Prenotazione",
     "from": "A partire da",
-    "whatsappNote": "L'invio apre WhatsApp con i tuoi dati già compilati"
+    "whatsappNote": "L'invio apre WhatsApp con i tuoi dati già compilati",
+    "popular": "Tour Popolare",
+    "desert": "Tour del Deserto",
+    "vip": "VIP di Lusso",
+    "short": "Viaggio Breve",
+    "cultural": "Cultura e Patrimonio"
   },
   "destination": {
     "explore": "Esplora",
@@ -179,7 +184,9 @@
     "mission": "La Nostra Missione",
     "missionText": "Creare esperienze marocchine indimenticabili e autentiche che connettano i viaggiatori con la cultura, le persone e i paesaggi del nostro bellissimo paese.",
     "values": "I Nostri Valori",
-    "team": "Il Nostro Team"
+    "team": "Il Nostro Team",
+    "ownerRole": "Proprietario",
+    "designerRole": "Designer"
   },
   "contact": {
     "title": "Contattaci",
@@ -198,6 +205,7 @@
     "title": "Blog di Viaggio in Marocco",
     "metaTitle": "Blog di Viaggio in Marocco | Consigli e Guide",
     "metaDesc": "Leggi consigli esperti sui viaggi in Marocco, guide alle destinazioni e suggerimenti culturali.",
+    "subtitle": "Guide di viaggio esperte, approfondimenti culturali e consigli direttamente dalle nostre guide locali",
     "readMore": "Leggi di Più",
     "minRead": "min di lettura",
     "by": "Di",

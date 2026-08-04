@@ -132,14 +132,22 @@
     "privateGuide": "Private certified guide",
     "bookingRequest": "Booking Request",
     "from": "From",
-    "whatsappNote": "Submitting opens WhatsApp with your details pre-filled"
+    "whatsappNote": "Submitting opens WhatsApp with your details pre-filled",
+    "popular": "Popular Tour",
+    "desert": "Desert Tour",
+    "vip": "VIP Luxury",
+    "short": "Short Trip",
+    "cultural": "Cultural & Heritage"
   },
   "destination": {
     "explore": "Explore",
     "bestTime": "Best Time to Visit",
     "topAttractions": "Top Attractions",
     "relatedTours": "Related Tours",
-    "viewAll": "View All Destinations"
+    "viewAll": "View All Destinations",
+    "metaTitle": "Top Morocco Destinations 2026 | Travel Guide | Morocco Travelland",
+    "metaDesc": "Explore the best destinations in Morocco. From the bustling medina of Marrakech to the Sahara Desert, Chefchaouen blue city, Fes, and coastal Essaouira.",
+    "subtitle": "Discover Morocco's most magical cities, deserts, mountains and coastal escapes"
   },
   "form": {
     "name": "Full Name",
@@ -179,7 +187,9 @@
     "mission": "Our Mission",
     "missionText": "To create unforgettable, authentic Moroccan experiences that connect travelers with the culture, people, and landscapes of our beautiful country.",
     "values": "Our Values",
-    "team": "Meet Our Team"
+    "team": "Meet Our Team",
+    "ownerRole": "Owner",
+    "designerRole": "Designer"
   },
   "contact": {
     "title": "Contact Us",
@@ -192,12 +202,15 @@
     "phone": "Phone",
     "whatsapp": "WhatsApp",
     "hours": "Working Hours",
-    "hoursText": "Monday - Sunday: 8:00 AM - 10:00 PM (Morocco Time)"
+    "hoursText": "Monday - Sunday: 8:00 AM - 10:00 PM (Morocco Time)",
+    "description": "Have questions about our tours or need assistance designing a customized itinerary? Feel free to contact us via WhatsApp, email, or fill out the form.",
+    "chatWhatsApp": "Chat on WhatsApp"
   },
   "blog": {
     "title": "Morocco Travel Blog",
     "metaTitle": "Morocco Travel Blog | Tips, Guides & Travel Advice",
     "metaDesc": "Read expert Morocco travel tips, destination guides, packing lists & cultural insights from Morocco Travelland's experienced guides.",
+    "subtitle": "Expert travel guides, cultural insights, and tips directly from our local tour guides",
     "readMore": "Read More",
     "minRead": "min read",
     "by": "By",

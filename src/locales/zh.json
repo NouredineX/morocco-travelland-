@@ -129,14 +129,23 @@
     "fastReply": "2小时内回复",
     "privateGuide": "私人持证导游",
     "bookingRequest": "预订咨询",
-    "whatsappNote": "提交后将通过 WhatsApp 发送您的预填信息"
+    "from": "起价",
+    "whatsappNote": "提交后将通过 WhatsApp 发送您的预填信息",
+    "popular": "热门行程",
+    "desert": "沙漠之旅",
+    "vip": "VIP奢华",
+    "short": "短途旅行",
+    "cultural": "文化与遗产"
   },
   "destination": {
     "explore": "探索",
     "bestTime": "最佳游览时间",
     "topAttractions": "热门景点",
     "relatedTours": "相关线路",
-    "viewAll": "查看全部目的地"
+    "viewAll": "查看全部目的地",
+    "metaTitle": "2026年摩洛哥热门目的地 | 旅行指南 | Morocco Travelland",
+    "metaDesc": "探索摩洛哥最佳旅行目的地。从热闹的马拉喀什麦地那到撒哈拉沙漠、蓝色小镇舍夫沙万、非斯以及沿海的索维拉。",
+    "subtitle": "探索摩洛哥最神奇的城市、沙漠、高山和海岸避暑胜地"
   },
   "form": {
     "name": "姓名",
@@ -176,7 +185,9 @@
     "mission": "我们的使命",
     "missionText": "创造令人难忘的、真实的摩洛哥旅行体验，让旅客与这个美丽国度的文化、人民和风景建立真正的联系。",
     "values": "我们的价值观",
-    "team": "认识我们的团队"
+    "team": "认识我们的团队",
+    "ownerRole": "创始人/所有者",
+    "designerRole": "设计师"
   },
   "contact": {
     "title": "联系我们",
@@ -189,12 +200,15 @@
     "phone": "电话",
     "whatsapp": "WhatsApp",
     "hours": "工作时间",
-    "hoursText": "周一至周日：上午8:00 - 晚上10:00（摩洛哥时间）"
+    "hoursText": "周一至周日：上午8:00 - 晚上10:00（摩洛哥时间）",
+    "description": "对我们的行程有任何疑问，或需要定制专属行程？请随时通过 WhatsApp、电子邮件或填写表格与我们联系。",
+    "chatWhatsApp": "WhatsApp 在线咨询"
   },
   "blog": {
     "title": "摩洛哥旅行博客",
     "metaTitle": "摩洛哥旅行博客 | 攻略、指南与旅行建议",
     "metaDesc": "阅读 Morocco Travelland 资深导游提供的摩洛哥旅行攻略、目的地指南、行李清单和文化见解。",
+    "subtitle": "资深本地导游为您提供专业的摩洛哥旅行指南、文化见解与贴心建议",
     "readMore": "阅读全文",
     "minRead": "分钟阅读",
     "by": "作者",

@@ -89,15 +89,14 @@ export default function About() {
       <section className="section team-sec">
         <div className="container">
           <div className="section-header">
-            <span className="section-label">Our Guides</span>
+            <span className="section-label">Morocco Travelland</span>
             <h2 className="section-title">{t('about.team')}</h2>
             <div className="divider"></div>
           </div>
-          <div className="grid grid-3">
+          <div className="grid grid-2" style={{ maxWidth: '800px', margin: '0 auto' }}>
             {[
-              { name: 'Youssef', role: 'Founder & Expert Desert Guide', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80' },
-              { name: 'Mustapha', role: 'Senior Tour Guide & Cultural Expert', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80' },
-              { name: 'Fatima', role: 'Travel Planner & Customer Support', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80' }
+              { name: 'Mohamed', role: t('about.ownerRole'), image: '/travel-picture/mohamed.jpg' },
+              { name: 'Nourdine', role: t('about.designerRole'), image: '/travel-picture/nourdine.jpg' }
             ].map((member, i) => (
               <div key={i} className="team-card">
                 <div className="team-card__image-wrap">

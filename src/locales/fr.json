@@ -132,14 +132,22 @@
     "privateGuide": "Guide privé certifié",
     "bookingRequest": "Demande de Réservation",
     "from": "À partir de",
-    "whatsappNote": "La soumission ouvre WhatsApp avec vos informations préremplies"
+    "whatsappNote": "La soumission ouvre WhatsApp avec vos informations préremplies",
+    "popular": "Circuit Populaire",
+    "desert": "Excursion Désert",
+    "vip": "VIP Luxe",
+    "short": "Court Séjour",
+    "cultural": "Culture & Patrimoine"
   },
   "destination": {
     "explore": "Explorer",
     "bestTime": "Meilleure Période pour Visiter",
     "topAttractions": "Attractions Principales",
     "relatedTours": "Circuits Associés",
-    "viewAll": "Voir Toutes les Destinations"
+    "viewAll": "Voir Toutes les Destinations",
+    "metaTitle": "Meilleures Destinations au Maroc 2026 | Guide de Voyage | Morocco Travelland",
+    "metaDesc": "Explorez les meilleures destinations du Maroc. De la médina animée de Marrakech au désert du Sahara, en passant par Chefchaouen, Fès et Essaouira.",
+    "subtitle": "Découvrez les villes, déserts, montagnes et côtes les plus magiques du Maroc"
   },
   "form": {
     "name": "Nom Complet",
@@ -179,7 +187,9 @@
     "mission": "Notre Mission",
     "missionText": "Créer des expériences marocaines inoubliables et authentiques qui connectent les voyageurs avec la culture, les gens et les paysages de notre beau pays.",
     "values": "Nos Valeurs",
-    "team": "Notre Équipe"
+    "team": "Notre Équipe",
+    "ownerRole": "Propriétaire",
+    "designerRole": "Designer"
   },
   "contact": {
     "title": "Contactez-Nous",
@@ -192,12 +202,15 @@
     "phone": "Téléphone",
     "whatsapp": "WhatsApp",
     "hours": "Horaires d'Ouverture",
-    "hoursText": "Lundi - Dimanche : 8h00 - 22h00 (Heure du Maroc)"
+    "hoursText": "Lundi - Dimanche : 8h00 - 22h00 (Heure du Maroc)",
+    "description": "Vous avez des questions sur nos circuits ou besoin d'aide pour concevoir un itinéraire sur mesure ? N'hésitez pas à nous contacter par WhatsApp, e-mail ou via le formulaire.",
+    "chatWhatsApp": "Discuter sur WhatsApp"
   },
   "blog": {
     "title": "Blog de Voyage au Maroc",
     "metaTitle": "Blog de Voyage au Maroc | Conseils et Guides",
     "metaDesc": "Lisez des conseils d'experts sur le voyage au Maroc, des guides de destinations et des astuces culturelles.",
+    "subtitle": "Guides de voyage experts, aperçus culturels et conseils directement de nos guides locaux",
     "readMore": "Lire la Suite",
     "minRead": "min de lecture",
     "by": "Par",

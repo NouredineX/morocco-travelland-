@@ -13,8 +13,8 @@ export default function Destinations() {
   return (
     <>
       <SEOHead
-        title="Top Morocco Destinations 2026 | Travel Guide | Morocco Travelland"
-        description="Explore the best destinations in Morocco. From the bustling medina of Marrakech to the Sahara Desert, Chefchaouen blue city, Fes, and coastal Essaouira."
+        title={t('destination.metaTitle')}
+        description={t('destination.metaDesc')}
         canonicalPath="/morocco-destinations"
         jsonLd={breadcrumbSchema([
           { name: 'Home', url: '/' },
@@ -33,7 +33,7 @@ export default function Destinations() {
         <div className="page-hero__overlay"></div>
         <div className="page-hero__content container">
           <h1 className="page-hero__title">{t('sections.destinations')}</h1>
-          <p className="page-hero__subtitle">Discover Morocco's most magical cities, deserts, mountains and coastal escapes</p>
+          <p className="page-hero__subtitle">{t('destination.subtitle')}</p>
         </div>
       </section>
 

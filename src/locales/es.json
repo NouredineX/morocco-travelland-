@@ -132,14 +132,22 @@
     "privateGuide": "Guía privado certificado",
     "bookingRequest": "Solicitud de Reserva",
     "from": "Desde",
-    "whatsappNote": "Al enviar se abre WhatsApp con sus datos ya rellenados"
+    "whatsappNote": "Al enviar se abre WhatsApp con sus datos ya rellenados",
+    "popular": "Tour Popular",
+    "desert": "Viaje al Desierto",
+    "vip": "VIP de Lujo",
+    "short": "Viaje Corto",
+    "cultural": "Cultura y Patrimonio"
   },
   "destination": {
     "explore": "Explorar",
     "bestTime": "Mejor Época para Visitar",
     "topAttractions": "Principales Atracciones",
     "relatedTours": "Tours Relacionados",
-    "viewAll": "Ver Todos los Destinos"
+    "viewAll": "Ver Todos los Destinos",
+    "metaTitle": "Mejores Destinos en Marruecos 2026 | Guía de Viaje | Morocco Travelland",
+    "metaDesc": "Explora los mejores destinos de Marruecos. Desde la vibrante medina de Marrakech hasta el desierto del Sáhara, Chefchaouen, Fez y Essaouira.",
+    "subtitle": "Descubre las ciudades, desiertos, montañas y costas más mágicos de Marruecos"
   },
   "form": {
     "name": "Nombre Completo",
@@ -179,7 +187,9 @@
     "mission": "Nuestra Misión",
     "missionText": "Crear experiencias marroquíes inolvidables y auténticas que conecten a los viajeros con la cultura, la gente y los paisajes de nuestro hermoso país.",
     "values": "Nuestros Valores",
-    "team": "Nuestro Equipo"
+    "team": "Nuestro Equipo",
+    "ownerRole": "Propietario",
+    "designerRole": "Diseñador"
   },
   "contact": {
     "title": "Contacto",
@@ -192,12 +202,15 @@
     "phone": "Teléfono",
     "whatsapp": "WhatsApp",
     "hours": "Horario de Atención",
-    "hoursText": "Lunes - Domingo: 8:00 AM - 10:00 PM (Hora de Marruecos)"
+    "hoursText": "Lunes - Domingo: 8:00 AM - 10:00 PM (Hora de Marruecos)",
+    "description": "¿Tiene preguntas sobre nuestros viajes o necesita ayuda para diseñar un itinerario personalizado? No dude en contactarnos a través de WhatsApp, correo electrónico o completando el formulario.",
+    "chatWhatsApp": "Chatear en WhatsApp"
   },
   "blog": {
     "title": "Blog de Viaje a Marruecos",
     "metaTitle": "Blog de Viaje a Marruecos | Consejos y Guías",
     "metaDesc": "Lee consejos expertos sobre viajes a Marruecos, guías de destinos y tips culturales.",
+    "subtitle": "Guías de viaje expertas, conocimientos culturales y consejos directamente de nuestros guías locales",
     "readMore": "Leer Más",
     "minRead": "min de lectura",
     "by": "Por",

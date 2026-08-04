@@ -41,10 +41,10 @@ export default function Contact() {
           <div className="contact-grid">
             {/* Info Column */}
             <div className="contact-info-col">
-              <h2 className="contact-section__title">Get In Touch</h2>
+              <h2 className="contact-section__title">{t('contact.heroTitle')}</h2>
               <div className="divider text-left" style={{ margin: 'var(--space-2) 0 var(--space-6)' }}></div>
               <p className="contact-info__desc">
-                Have questions about our tours or need assistance designing a customized itinerary? Feel free to contact us via WhatsApp, email, or fill out the form.
+                {t('contact.description')}
               </p>
 
               <div className="contact-cards">
@@ -53,7 +53,7 @@ export default function Contact() {
                   <div>
                     <h4>{t('contact.phone')} / {t('contact.whatsapp')}</h4>
                     <p><a href={`tel:${siteConfig.phone}`}>{siteConfig.phone}</a></p>
-                    <p><a href={`https://wa.me/${siteConfig.whatsapp}`} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-success)', fontWeight: 'bold' }}>Chat on WhatsApp</a></p>
+                    <p><a href={`https://wa.me/${siteConfig.whatsapp}`} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-success)', fontWeight: 'bold' }}>{t('contact.chatWhatsApp')}</a></p>
                   </div>
                 </div>
 

@@ -107,7 +107,7 @@ export default function Tours() {
                     className={`filter-chip ${selectedType === type ? 'filter-chip--active' : ''}`}
                     onClick={() => handleTypeFilter(type)}
                   >
-                    {type === 'All' ? t('tour.all') : type.charAt(0).toUpperCase() + type.slice(1)}
+                    {type === 'All' ? t('tour.all') : t(`tour.${type}`)}
                   </button>
                 ))}
               </div>
