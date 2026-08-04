@@ -6,14 +6,13 @@ interface LogoIconProps {
 export default function LogoIcon({ size = 36, className = '' }: LogoIconProps) {
   return (
     <img
-      src="/logo-mtl.jpg"
+      src="/logo-mtl.png"
       alt="Morocco Travelland MTL Logo"
       className={className}
       style={{
-        width: size,
         height: size,
-        borderRadius: '50%',
-        objectFit: 'cover',
+        width: 'auto',
+        objectFit: 'contain',
         display: 'block',
         flexShrink: 0
       }}
