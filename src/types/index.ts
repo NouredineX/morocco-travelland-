@@ -111,6 +111,7 @@ export interface SiteConfig {
     instagram: string;
     youtube: string;
     tripadvisor: string;
+    pinterest?: string;
   };
 }
 

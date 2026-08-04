@@ -99,15 +99,15 @@ export default function About() {
                 name: 'Mohamed', 
                 role: t('about.ownerRole'), 
                 image: '/travel-picture/mohamed.jpg',
-                facebook: 'https://www.facebook.com/mohamed.travelland',
-                instagram: 'https://www.instagram.com/mohamed.travelland'
+                facebook: 'https://www.facebook.com/share/18BkKJJywE/',
+                instagram: 'https://www.instagram.com/moha.boumes?igsh=MXIzMnB3dHZ2eXBhag=='
               },
               { 
                 name: 'Nourdine', 
                 role: t('about.designerRole'), 
                 image: '/travel-picture/nourdine.jpg',
-                facebook: 'https://www.facebook.com/nourdine.designer',
-                instagram: 'https://www.instagram.com/nourdine.designer'
+                facebook: 'https://web.facebook.com/nourdine.bm.94/photos',
+                instagram: 'https://www.instagram.com/nouredinebms?igsh=dnZmZHRqejV5MzN0'
               }
             ].map((member, i) => (
               <div key={i} className="team-card">
