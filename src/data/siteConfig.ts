@@ -4,7 +4,7 @@ export const siteConfig: SiteConfig = {
   name: 'Morocco Travelland',
   domain: 'moroccotravelland.com',
   url: 'https://www.moroccotravelland.com',
-  email: 'info@moroccotravelland.com',
+  email: 'moroccotravellandteam@gmail.com',
   phone: '+212 634 241 429',
   whatsapp: '212634241429',
   address: 'Marrakech, Morocco',
