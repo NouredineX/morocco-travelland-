@@ -9,6 +9,7 @@ import DestinationDetail from './pages/DestinationDetail';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 import NotFound from './pages/NotFound';
 import './i18n';
 
@@ -27,6 +28,8 @@ export default function App() {
             <Route path="contact" element={<Contact />} />
             <Route path="blog" element={<Blog />} />
             <Route path="blog/:slug" element={<Blog />} />
+            <Route path="privacy" element={<PrivacyPolicy />} />
+            <Route path="terms" element={<PrivacyPolicy />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

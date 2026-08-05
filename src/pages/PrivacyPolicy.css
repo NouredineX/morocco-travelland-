@@ -1,0 +1,136 @@
+.policy-content-sec {
+  background: var(--color-bg-card);
+}
+
+.policy-block {
+  padding: var(--space-4) 0;
+}
+
+.policy-intro {
+  font-size: var(--fs-md);
+  color: var(--color-text-secondary);
+  line-height: var(--lh-relaxed);
+}
+
+.policy-subtitle {
+  font-family: var(--font-heading);
+  font-size: var(--fs-xl);
+  color: var(--color-secondary);
+  margin-top: var(--space-8);
+  margin-bottom: var(--space-4);
+  font-weight: var(--fw-bold);
+}
+
+.policy-desc {
+  font-size: var(--fs-base);
+  color: var(--color-text-secondary);
+  line-height: var(--lh-relaxed);
+  margin-bottom: var(--space-6);
+}
+
+/* Styled Table for Refund Percentages */
+.policy-table-wrapper {
+  overflow-x: auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  margin: var(--space-6) 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.policy-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: var(--fs-sm);
+  background: #ffffff;
+}
+
+.policy-table th {
+  background: var(--color-bg-warm);
+  color: var(--color-secondary);
+  font-weight: var(--fw-bold);
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--color-border);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.policy-table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--color-border-light);
+  color: var(--color-text);
+}
+
+.policy-table tr:last-child td {
+  border-bottom: none;
+}
+
+.policy-table tr:hover td {
+  background: var(--color-bg);
+}
+
+.policy-table td strong {
+  color: var(--color-secondary);
+}
+
+/* Highlight Colors for States */
+.text-success {
+  color: var(--color-primary) !important;
+}
+
+.text-accent {
+  color: var(--color-primary-dark) !important;
+}
+
+.text-warning {
+  color: var(--color-warning) !important;
+}
+
+.text-error {
+  color: var(--color-error) !important;
+}
+
+.font-semibold {
+  font-weight: var(--fw-semibold);
+}
+
+.font-extrabold {
+  font-weight: var(--fw-extrabold);
+}
+
+/* Bullet list */
+.policy-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.policy-list li {
+  position: relative;
+  padding-left: var(--space-6);
+  font-size: var(--fs-base);
+  color: var(--color-text-secondary);
+  line-height: var(--lh-relaxed);
+  margin-bottom: var(--space-4);
+}
+
+.policy-list li::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .policy-intro {
+    font-size: var(--fs-base);
+  }
+  .policy-subtitle {
+    font-size: var(--fs-lg);
+  }
+  .policy-table th, 
+  .policy-table td {
+    padding: 12px 14px;
+  }
+}
