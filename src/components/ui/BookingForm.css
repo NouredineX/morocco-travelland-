@@ -63,6 +63,20 @@
   box-shadow: 0 0 0 3px var(--color-primary-alpha), 0 1px 3px rgba(0,0,0,0.05);
 }
 
+.form-group input[readonly] {
+  background: var(--color-bg-warm);
+  color: var(--color-text-secondary);
+  border-color: var(--color-border-light);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.form-required {
+  color: var(--color-error);
+  margin-left: 2px;
+  font-weight: var(--fw-bold);
+}
+
 .form-submit {
   margin-top: var(--space-5);
   width: 100%;

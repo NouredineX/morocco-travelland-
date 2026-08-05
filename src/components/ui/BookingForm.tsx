@@ -56,7 +56,7 @@ export default function BookingForm({ tourTitle = '', isCard = true }: BookingFo
       ) : (
         <form onSubmit={handleSubmit} className="booking-form">
           <div className="form-group">
-            <label htmlFor="name">{t('form.name')} *</label>
+            <label htmlFor="name">{t('form.name')} <span className="form-required">*</span></label>
             <input
               type="text"
               id="name"
@@ -70,7 +70,7 @@ export default function BookingForm({ tourTitle = '', isCard = true }: BookingFo
 
           <div className="form-grid">
             <div className="form-group">
-              <label htmlFor="email">{t('form.email')} *</label>
+              <label htmlFor="email">{t('form.email')} <span className="form-required">*</span></label>
               <input
                 type="email"
                 id="email"
@@ -82,7 +82,7 @@ export default function BookingForm({ tourTitle = '', isCard = true }: BookingFo
               />
             </div>
             <div className="form-group">
-              <label htmlFor="phone">{t('form.phone')} *</label>
+              <label htmlFor="phone">{t('form.phone')} <span className="form-required">*</span></label>
               <input
                 type="tel"
                 id="phone"
@@ -97,7 +97,7 @@ export default function BookingForm({ tourTitle = '', isCard = true }: BookingFo
 
           <div className="form-grid">
             <div className="form-group">
-              <label htmlFor="date">{t('form.date')} *</label>
+              <label htmlFor="date">{t('form.date')} <span className="form-required">*</span></label>
               <input
                 type="date"
                 id="date"
@@ -125,12 +125,13 @@ export default function BookingForm({ tourTitle = '', isCard = true }: BookingFo
               name="tour"
               value={formData.tour}
               onChange={handleChange}
+              readOnly={!!tourTitle}
               placeholder="e.g. 15 Days Grand Morocco Tour"
             />
           </div>
 
           <div className="form-group">
-            <label htmlFor="message">{t('form.message')} *</label>
+            <label htmlFor="message">{t('form.message')} <span className="form-required">*</span></label>
             <textarea
               id="message"
               name="message"
