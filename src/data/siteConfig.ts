@@ -11,7 +11,7 @@ export const siteConfig: SiteConfig = {
   social: {
     facebook: 'https://www.facebook.com/share/1fADiSfqQ6/',
     instagram: 'https://www.instagram.com/moroccotravel.land?igsh=MWozdXJtZzR6MHc3cg==',
-    youtube: 'https://www.youtube.com/@moroccotravelland',
+    wechat: 'https://weixin.qq.com/',
     tripadvisor: 'https://www.tripadvisor.com/Profile/morocco-travel-land',
     pinterest: 'https://www.pinterest.com/moroccotravellandteam/',
   },

@@ -18,7 +18,7 @@ export function organizationSchema() {
     sameAs: [
       siteConfig.social.facebook,
       siteConfig.social.instagram,
-      siteConfig.social.youtube,
+      siteConfig.social.wechat,
       siteConfig.social.tripadvisor,
     ],
   };

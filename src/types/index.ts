@@ -109,7 +109,7 @@ export interface SiteConfig {
   social: {
     facebook: string;
     instagram: string;
-    youtube: string;
+    wechat: string;
     tripadvisor: string;
     pinterest?: string;
   };
