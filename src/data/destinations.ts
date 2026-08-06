@@ -11,7 +11,7 @@ export const destinations: Destination[] = [
     "focusKeyword": "Marrakech travel guide",
     "description": "Marrakech, the vibrant Red City, is Morocco's most popular destination. From the bustling Jemaa el-Fna square to the serene Majorelle Gardens, Marrakech captivates every traveler.",
     "content": "",
-    "image": "/travel-picture/marrakech_guide.webp",
+    "image": "/travel-picture/marrakech.webp",
     "gallery": [],
     "highlights": [
       "Jemaa el-Fna square",
@@ -131,7 +131,7 @@ export const destinations: Destination[] = [
     "focusKeyword": "Fes Morocco travel guide",
     "description": "Fes is Morocco's oldest imperial city and cultural capital. Its UNESCO-listed medina is the world's largest car-free urban area, filled with ancient mosques, madrasas, and traditional tanneries.",
     "content": "",
-    "image": "/travel-picture/fes_medina.webp",
+    "image": "/travel-picture/fes.webp",
     "gallery": [],
     "highlights": [
       "Oldest medina in the world",
@@ -231,7 +231,7 @@ export const destinations: Destination[] = [
     "focusKeyword": "Chefchaouen blue city Morocco",
     "description": "Nestled in the Rif Mountains, Chefchaouen is famous for its stunning blue-washed buildings. This photogenic gem is one of Morocco's most enchanting destinations.",
     "content": "",
-    "image": "/travel-picture/chefchaouen_guide.webp",
+    "image": "/travel-picture/chefchaouen.webp",
     "gallery": [],
     "highlights": [
       "Blue-washed medina",
@@ -440,7 +440,7 @@ export const destinations: Destination[] = [
     "focusKeyword": "Atlas Mountains Morocco",
     "description": "The Atlas Mountains stretch across Morocco offering dramatic landscapes, traditional Berber villages, and some of North Africa's best trekking.",
     "content": "",
-    "image": "/travel-picture/steptodown.com504426.webp",
+    "image": "/travel-picture/atlas-mountains.webp",
     "gallery": [],
     "highlights": [
       "Mount Toubkal",
@@ -539,7 +539,7 @@ export const destinations: Destination[] = [
     "focusKeyword": "Essaouira Morocco travel guide",
     "description": "Essaouira is Morocco's laid-back coastal gem. Known for its Portuguese fortifications, vibrant art scene, fresh seafood, and world-class windsurfing.",
     "content": "",
-    "image": "/travel-picture/steptodown.com441847.webp",
+    "image": "/travel-picture/essaouira.webp",
     "gallery": [],
     "highlights": [
       "Portuguese ramparts",
@@ -638,7 +638,7 @@ export const destinations: Destination[] = [
     "focusKeyword": "Ouarzazate Morocco",
     "description": "Known as the \"Hollywood of Africa,\" Ouarzazate is home to Atlas Film Studios and the stunning Ait Benhaddou kasbah.",
     "content": "",
-    "image": "/travel-picture/steptodown.com149651.webp",
+    "image": "/travel-picture/ouarzazate.webp",
     "gallery": [],
     "highlights": [
       "Ait Benhaddou UNESCO site",
