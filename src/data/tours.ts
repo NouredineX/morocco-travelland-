@@ -21,7 +21,7 @@ export const tours: Tour[] = [
     "reviewCount": 30,
     "featured": true,
     "vip": false,
-    "image": "/travel-picture/steptodown.com109557.jpg",
+    "image": "/travel-picture/steptodown.com109557.webp",
     "gallery": [],
     "highlights": [
       "Explore the imperial cities of Fes and Marrakech",
@@ -486,7 +486,7 @@ export const tours: Tour[] = [
     "reviewCount": 30,
     "featured": true,
     "vip": false,
-    "image": "/travel-picture/steptodown.com399630.jpg",
+    "image": "/travel-picture/steptodown.com399630.webp",
     "gallery": [],
     "highlights": [
       "Imperial cities of Fes & Marrakech",
@@ -907,7 +907,7 @@ export const tours: Tour[] = [
     "reviewCount": 30,
     "featured": true,
     "vip": false,
-    "image": "/travel-picture/steptodown.com149651.jpg",
+    "image": "/travel-picture/steptodown.com149651.webp",
     "gallery": [],
     "highlights": [
       "Fes ancient medina",
@@ -1285,7 +1285,7 @@ export const tours: Tour[] = [
     "reviewCount": 30,
     "featured": true,
     "vip": false,
-    "image": "/travel-picture/steptodown.com178618.jpg",
+    "image": "/travel-picture/steptodown.com178618.webp",
     "gallery": [],
     "highlights": [
       "Imperial city of Fes",
@@ -1604,7 +1604,7 @@ export const tours: Tour[] = [
     "reviewCount": 25,
     "featured": false,
     "vip": false,
-    "image": "/travel-picture/steptodown.com133895.jpg",
+    "image": "/travel-picture/steptodown.com133895.webp",
     "gallery": [],
     "highlights": [
       "Fes medina tour",
@@ -1873,7 +1873,7 @@ export const tours: Tour[] = [
     "reviewCount": 30,
     "featured": true,
     "vip": false,
-    "image": "/travel-picture/steptodown.com483735.jpg",
+    "image": "/travel-picture/steptodown.com483735.webp",
     "gallery": [],
     "highlights": [
       "Complete Morocco circuit",
@@ -2280,7 +2280,7 @@ export const tours: Tour[] = [
     "reviewCount": 28,
     "featured": true,
     "vip": false,
-    "image": "/travel-picture/steptodown.com237320.jpg",
+    "image": "/travel-picture/steptodown.com237320.webp",
     "gallery": [],
     "highlights": [
       "Sahara luxury camp",
@@ -2667,7 +2667,7 @@ export const tours: Tour[] = [
     "reviewCount": 24,
     "featured": true,
     "vip": false,
-    "image": "/travel-picture/steptodown.com427185.jpg",
+    "image": "/travel-picture/steptodown.com427185.webp",
     "gallery": [],
     "highlights": [
       "Sahara Desert",
@@ -2983,7 +2983,7 @@ export const tours: Tour[] = [
     "reviewCount": 20,
     "featured": true,
     "vip": false,
-    "image": "/travel-picture/steptodown.com564210.jpg",
+    "image": "/travel-picture/steptodown.com564210.webp",
     "gallery": [],
     "highlights": [
       "Sahara Desert",
@@ -3277,7 +3277,7 @@ export const tours: Tour[] = [
     "reviewCount": 22,
     "featured": false,
     "vip": false,
-    "image": "/travel-picture/steptodown.com504426.jpg",
+    "image": "/travel-picture/steptodown.com504426.webp",
     "gallery": [],
     "highlights": [
       "Sahara camping",
@@ -3540,7 +3540,7 @@ export const tours: Tour[] = [
     "reviewCount": 20,
     "featured": false,
     "vip": false,
-    "image": "/travel-picture/sahara_camping.jpg",
+    "image": "/travel-picture/sahara_camping.webp",
     "gallery": [],
     "highlights": [
       "Sahara dunes",
@@ -4113,7 +4113,7 @@ export const tours: Tour[] = [
     "reviewCount": 20,
     "featured": true,
     "vip": false,
-    "image": "/travel-picture/fes_medina.jpg",
+    "image": "/travel-picture/fes_medina.webp",
     "gallery": [],
     "highlights": [
       "Fes medina",
@@ -4433,7 +4433,7 @@ export const tours: Tour[] = [
     "reviewCount": 25,
     "featured": true,
     "vip": false,
-    "image": "/travel-picture/steptodown.com223101.jpg",
+    "image": "/travel-picture/steptodown.com223101.webp",
     "gallery": [],
     "highlights": [
       "Fes old city",
@@ -4688,7 +4688,7 @@ export const tours: Tour[] = [
     "reviewCount": 20,
     "featured": true,
     "vip": false,
-    "image": "/travel-picture/steptodown.com255948.jpg",
+    "image": "/travel-picture/steptodown.com255948.webp",
     "gallery": [],
     "highlights": [
       "Sahara Desert",
@@ -4913,7 +4913,7 @@ export const tours: Tour[] = [
     "reviewCount": 15,
     "featured": false,
     "vip": false,
-    "image": "/travel-picture/steptodown.com300879.jpg",
+    "image": "/travel-picture/steptodown.com300879.webp",
     "gallery": [],
     "highlights": [
       "Sahara Desert",
@@ -5110,7 +5110,7 @@ export const tours: Tour[] = [
     "reviewCount": 18,
     "featured": false,
     "vip": false,
-    "image": "/travel-picture/steptodown.com350889.jpg",
+    "image": "/travel-picture/steptodown.com350889.webp",
     "gallery": [],
     "highlights": [
       "Merzouga dunes",
@@ -5609,7 +5609,7 @@ export const tours: Tour[] = [
     "reviewCount": 25,
     "featured": true,
     "vip": false,
-    "image": "/travel-picture/steptodown.com696946.jpg",
+    "image": "/travel-picture/steptodown.com696946.webp",
     "gallery": [],
     "highlights": [
       "Chefchaouen",
@@ -5862,7 +5862,7 @@ export const tours: Tour[] = [
     "reviewCount": 15,
     "featured": false,
     "vip": false,
-    "image": "/travel-picture/chefchaouen_guide.jpg",
+    "image": "/travel-picture/chefchaouen_guide.webp",
     "gallery": [],
     "highlights": [
       "Chefchaouen blue city",
@@ -6054,7 +6054,7 @@ export const tours: Tour[] = [
     "reviewCount": 15,
     "featured": false,
     "vip": false,
-    "image": "/travel-picture/steptodown.com837323.jpg",
+    "image": "/travel-picture/steptodown.com837323.webp",
     "gallery": [],
     "highlights": [
       "Chefchaouen",
@@ -6231,7 +6231,7 @@ export const tours: Tour[] = [
     "reviewCount": 18,
     "featured": true,
     "vip": true,
-    "image": "/travel-picture/steptodown.com808995.jpg",
+    "image": "/travel-picture/steptodown.com808995.webp",
     "gallery": [],
     "highlights": [
       "5-star luxury riads",
@@ -6676,7 +6676,7 @@ export const tours: Tour[] = [
     "reviewCount": 21,
     "featured": true,
     "vip": true,
-    "image": "/travel-picture/steptodown.com779216.jpg",
+    "image": "/travel-picture/steptodown.com779216.webp",
     "gallery": [],
     "highlights": [
       "5-star luxury riads",
@@ -7076,7 +7076,7 @@ export const tours: Tour[] = [
     "reviewCount": 27,
     "featured": true,
     "vip": true,
-    "image": "/travel-picture/steptodown.com422659.jpg",
+    "image": "/travel-picture/steptodown.com422659.webp",
     "gallery": [],
     "highlights": [
       "5-star luxury",
@@ -7448,7 +7448,7 @@ export const tours: Tour[] = [
     "reviewCount": 25,
     "featured": true,
     "vip": true,
-    "image": "/travel-picture/steptodown.com214173.jpg",
+    "image": "/travel-picture/steptodown.com214173.webp",
     "gallery": [],
     "highlights": [
       "VIP luxury",
@@ -7788,7 +7788,7 @@ export const tours: Tour[] = [
     "reviewCount": 22,
     "featured": false,
     "vip": true,
-    "image": "/travel-picture/steptodown.com499248.jpg",
+    "image": "/travel-picture/steptodown.com499248.webp",
     "gallery": [],
     "highlights": [
       "VIP luxury",

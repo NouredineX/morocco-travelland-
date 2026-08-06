@@ -23,7 +23,7 @@ export default function Contact() {
       {/* Hero Banner */}
       <section className="page-hero">
         <img
-          src="https://images.unsplash.com/photo-1509306024325-2a41e1e5cce9?w=1920&q=75"
+          src="/travel-picture/sahara_camping.webp"
           alt="Contact Morocco Travelland team"
           className="page-hero__bg"
           width="1920" height="400"

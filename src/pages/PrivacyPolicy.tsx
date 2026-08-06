@@ -175,7 +175,7 @@ export default function PrivacyPolicy() {
       {/* Hero Banner */}
       <section className="page-hero">
         <img
-          src="/travel-picture/sahara_camping.jpg"
+          src="/travel-picture/sahara_camping.webp"
           alt="Morocco Travelland Booking terms and privacy policy"
           className="page-hero__bg"
           width="1920" height="400"

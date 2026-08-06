@@ -228,7 +228,7 @@ export default function Home() {
       <section className="cta-section" id="customize-tour">
         <div className="cta-section__bg">
           <img
-            src="https://images.unsplash.com/photo-1542332213-9b5a5a3fda35?w=1920&q=60"
+            src="/travel-picture/1-13.webp"
             alt="Morocco Travelland custom tour - Sahara Desert"
             loading="lazy"
             width="1920"

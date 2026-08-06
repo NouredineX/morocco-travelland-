@@ -98,21 +98,27 @@ export default function About() {
               { 
                 name: 'Mohamed', 
                 role: t('about.ownerRole'), 
-                image: '/travel-picture/mohamed.jpg',
+                image: '/travel-picture/mohamed.webp',
                 facebook: 'https://www.facebook.com/share/18BkKJJywE/',
                 instagram: 'https://www.instagram.com/moha.boumes?igsh=MXIzMnB3dHZ2eXBhag=='
               },
               { 
-                name: 'Nourdine', 
+                name: 'Noureddine', 
                 role: t('about.designerRole'), 
-                image: '/travel-picture/nourdine.jpg',
+                image: '',
                 facebook: 'https://web.facebook.com/nourdine.bm.94/photos',
                 instagram: 'https://www.instagram.com/nouredinebms?igsh=dnZmZHRqejV5MzN0'
               }
             ].map((member, i) => (
               <div key={i} className="team-card">
                 <div className="team-card__image-wrap">
-                  <img src={member.image} alt={`Morocco Travelland team - ${member.name}`} className="team-card__image" loading="lazy" />
+                  {member.image ? (
+                    <img src={member.image} alt={`Morocco Travelland team - ${member.name}`} className="team-card__image" loading="lazy" />
+                  ) : (
+                    <div className="team-card__placeholder">
+                      {member.name.charAt(0)}
+                    </div>
+                  )}
                 </div>
                 <h3 className="team-card__name">{member.name}</h3>
                 <span className="team-card__role">{member.role}</span>

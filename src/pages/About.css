@@ -128,3 +128,16 @@
     grid-template-columns: 1fr;
   }
 }
+
+.team-card__placeholder {
+  width: 100%;
+  height: 100%;
+  background: var(--color-primary);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--fs-3xl);
+  font-weight: var(--fw-bold);
+  text-transform: uppercase;
+}

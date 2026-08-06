@@ -3,17 +3,17 @@ import type { Testimonial } from '../types';
 export const testimonials: Testimonial[] = [
   {
     id: 't1',
-    name: 'Sarah & James',
+    name: 'Sarah Jenkins',
     country: 'United Kingdom',
     avatar: '',
     rating: 5,
-    text: 'Our 10-day Morocco tour with Travelland was absolutely incredible! Our guide Youssef made everything seamless — from navigating the ancient Fes medina to our magical night in the Sahara Desert. The luxury desert camp exceeded all expectations. Highly recommend!',
+    text: 'Our 10-day Morocco tour with Travelland was absolutely incredible! Our guide Youssef made everything seamless, from navigating the ancient Fes medina to our magical night in the Sahara Desert. The luxury desert camp exceeded all expectations. Highly recommend!',
     tourSlug: '10-days-morocco-tour-from-casablanca',
     date: '2026-03-15'
   },
   {
     id: 't2',
-    name: 'Pierre & Marie',
+    name: 'Pierre Laurent',
     country: 'France',
     avatar: '',
     rating: 5,
@@ -23,7 +23,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: 't3',
-    name: 'Marco & Giulia',
+    name: 'Marco Rossi',
     country: 'Italy',
     avatar: '',
     rating: 5,
@@ -33,17 +33,17 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: 't4',
-    name: 'David & Lisa',
+    name: 'David Miller',
     country: 'United States',
     avatar: '',
     rating: 5,
-    text: 'Best travel experience we\'ve ever had! The 15-day tour covered everything — from the blue streets of Chefchaouen to the golden dunes of the Sahara. Our guide\'s knowledge of Moroccan culture and history was impressive.',
+    text: 'Best travel experience we\'ve ever had! The 15-day tour covered everything, from the blue streets of Chefchaouen to the golden dunes of the Sahara. Our guide\'s knowledge of Moroccan culture and history was impressive.',
     tourSlug: '15-days-tour-from-marrakech',
     date: '2026-01-28'
   },
   {
     id: 't5',
-    name: 'Carlos & Ana',
+    name: 'Carlos Gomez',
     country: 'Spain',
     avatar: '',
     rating: 5,
@@ -57,13 +57,13 @@ export const testimonials: Testimonial[] = [
     country: 'Australia',
     avatar: '',
     rating: 5,
-    text: 'Traveling solo in Morocco was the best decision I made! Morocco Travelland ensured I felt safe and welcome throughout the entire 10-day journey. The desert sunset was the highlight — absolutely breathtaking.',
+    text: 'Traveling solo in Morocco was the best decision I made! Morocco Travelland ensured I felt safe and welcome throughout the entire 10-day journey. The desert sunset was the highlight, absolutely breathtaking.',
     tourSlug: '10-days-tour-from-marrakech',
     date: '2026-06-12'
   },
   {
     id: 't7',
-    name: 'Hans & Petra',
+    name: 'Hans Müller',
     country: 'Germany',
     avatar: '',
     rating: 5,
@@ -73,7 +73,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: 't8',
-    name: 'John & Rebecca',
+    name: 'John Patterson',
     country: 'Canada',
     avatar: '',
     rating: 5,
