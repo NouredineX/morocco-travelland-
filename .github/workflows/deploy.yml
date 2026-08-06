@@ -32,7 +32,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.TEST }}
           ARGS: "-rlgoDzvO --delete"
           SOURCE: "dist/"
-          REMOTE_HOST: "62.171.144.189"
-          REMOTE_USER: "root"
-          TARGET: "/opt/antigravity/moroccotravelland.com/"
+          REMOTE_HOST: ${{ secrets.SERVER_HOST }}
+          REMOTE_USER: ${{ secrets.SERVER_USER }}
+          TARGET: ${{ secrets.SERVER_TARGET }}
           EXCLUDE: "/node_modules/"
