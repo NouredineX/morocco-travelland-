@@ -128,11 +128,16 @@
   display: none;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 5px;
-  width: 32px;
-  height: 32px;
+  width: 44px;
+  height: 44px;
+  padding: 6px;
   cursor: pointer;
+  position: relative;
   z-index: calc(var(--z-overlay) + 1);
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .header__hamburger span {

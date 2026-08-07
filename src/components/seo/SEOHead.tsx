@@ -21,7 +21,7 @@ export default function SEOHead({
   jsonLd,
 }: SEOHeadProps) {
   const url = `${siteConfig.url}${canonicalPath}`;
-  const fullTitle = title.includes('Morocco') ? title : `${title} | Morocco`;
+  const fullTitle = title.includes('Morocco') ? title : `${title} | Morocco Travel Land`;
 
   return (
     <Helmet>

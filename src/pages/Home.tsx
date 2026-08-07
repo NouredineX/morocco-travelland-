@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <SEOHead
-        title="Morocco | Best Private Morocco Tours & Travel Packages 2026"
+        title="Morocco Travel Land | Best Private Morocco Tours & Travel Packages 2026"
         description="Discover authentic Morocco with our private tours. Expert local guides, luxury desert camps, imperial cities & Sahara adventures. Book your dream Morocco trip today!"
         canonicalPath="/"
         jsonLd={homeSchema}
