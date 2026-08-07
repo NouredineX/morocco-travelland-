@@ -27,8 +27,8 @@ export default function Home() {
   return (
     <>
       <SEOHead
-        title="Morocco Travelland | Best Private Morocco Tours & Travel Packages 2026"
-        description="Discover authentic Morocco with Travelland's private tours. Expert local guides, luxury desert camps, imperial cities & Sahara adventures. Book your dream Morocco trip today!"
+        title="Morocco | Best Private Morocco Tours & Travel Packages 2026"
+        description="Discover authentic Morocco with our private tours. Expert local guides, luxury desert camps, imperial cities & Sahara adventures. Book your dream Morocco trip today!"
         canonicalPath="/"
         jsonLd={homeSchema}
       />
