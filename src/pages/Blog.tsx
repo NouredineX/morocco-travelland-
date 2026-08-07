@@ -114,7 +114,7 @@ export default function Blog() {
           <section className="page-hero">
             <img
               src="https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=1920&q=75"
-              alt="Morocco Travelland Blog and Guides"
+              alt="Morocco Travel Land Blog and Guides"
               className="page-hero__bg"
               width="1920" height="400"
             />

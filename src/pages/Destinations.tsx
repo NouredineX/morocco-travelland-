@@ -50,7 +50,7 @@ export default function Destinations() {
                   <div className="dest-page-card__image-wrap">
                     <img
                       src={dest.image}
-                      alt={`Morocco Travelland - visit ${locName}`}
+                      alt={`Morocco Travel Land - visit ${locName}`}
                       className="dest-page-card__image"
                       loading="lazy"
                       width="400"

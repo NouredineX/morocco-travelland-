@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
         return {
           title: 'Politique de Confidentialité & Conditions',
           subtitle: 'Conditions de réservation, politique de remboursement et confidentialité',
-          intro: 'Chez Morocco Travelland, nous accordons une grande importance à la transparence de nos services. Veuillez lire nos conditions générales de réservation, nos politiques d\'annulation ainsi que les règles de confidentialité.',
+          intro: 'Chez Morocco Travel Land, nous accordons une grande importance à la transparence de nos services. Veuillez lire nos conditions générales de réservation, nos politiques d\'annulation ainsi que les règles de confidentialité.',
           refundTitle: '1. Conditions d\'Annulation & Politique de Remboursement',
           refundDesc: 'Afin de garantir les réservations des guides, des transports privés et des hôtels/riads de luxe, nous appliquons une politique de remboursement échelonnée. Plus la date de votre départ est proche, plus les frais d\'annulation retenus sont élevés :',
           colPeriod: 'Période d\'Annulation',
@@ -29,7 +29,7 @@ export default function PrivacyPolicy() {
           termsTitle: '2. Conditions Générales de Voyage',
           termsItems: [
             'Réservation et Acompte : Pour confirmer votre circuit privé, un acompte est requis. Le solde restant doit être réglé au début du circuit.',
-            'Modifications d\'Itinéraire : Morocco Travelland se réserve le droit de modifier légèrement l\'itinéraire en cas de force majeure (conditions météo dans le Sahara, routes coupées dans l\'Atlas, etc.) afin de garantir votre sécurité.',
+            'Modifications d\'Itinéraire : Morocco Travel Land se réserve le droit de modifier légèrement l\'itinéraire en cas de force majeure (conditions météo dans le Sahara, routes coupées dans l\'Atlas, etc.) afin de garantir votre sécurité.',
             'Assurance Voyage : Nous conseillons vivement à tous nos clients de souscrire une assurance voyage complète couvrant les annulations et l\'assistance médicale.'
           ],
           privacyTitle: '3. Politique de Confidentialité des Données',
@@ -43,7 +43,7 @@ export default function PrivacyPolicy() {
         return {
           title: 'Política de Privacidad y Términos',
           subtitle: 'Condiciones de reserva, política de reembolso y confidencialidad',
-          intro: 'En Morocco Travelland valoramos la transparencia. Lea atentamente nuestras condiciones de reserva, políticas de cancelación y normas de protección de datos.',
+          intro: 'En Morocco Travel Land valoramos la transparencia. Lea atentamente nuestras condiciones de reserva, políticas de cancelación y normas de protección de datos.',
           refundTitle: '1. Condiciones de Cancelación y Política de Reembolso',
           refundDesc: 'Para asegurar las reservas de guías, transporte privado y hoteles/riads, aplicamos una política de reembolso escalonada. A medida que se acerca la fecha de salida, la tarifa de cancelación aumenta:',
           colPeriod: 'Período de Cancelación',
@@ -58,7 +58,7 @@ export default function PrivacyPolicy() {
           termsTitle: '2. Condiciones Generales del Viaje',
           termsItems: [
             'Reserva y Depósito: Para confirmar su viaje privado se requiere un depósito inicial. El pago restante se liquidará al inicio del viaje.',
-            'Modificación de Itinerarios: Morocco Travelland se reserva el derecho de ajustar rutas por fuerza mayor (clima en el Sáhara, carreteras bloqueadas en el Atlas, etc.) para garantizar su seguridad.',
+            'Modificación de Itinerarios: Morocco Travel Land se reserva el derecho de ajustar rutas por fuerza mayor (clima en el Sáhara, carreteras bloqueadas en el Atlas, etc.) para garantizar su seguridad.',
             'Seguro de Viaje: Se recomienda encarecidamente contar con un seguro de viaje que cubra cancelaciones y gastos médicos.'
           ],
           privacyTitle: '3. Protección de Datos y Privacidad',
@@ -72,7 +72,7 @@ export default function PrivacyPolicy() {
         return {
           title: 'Politica sulla Privacy e Termini',
           subtitle: 'Condizioni di prenotazione, politica di rimborso e riservatezza',
-          intro: 'In Morocco Travelland diamo priorità alla trasparenza. Si prega di leggere attentamente le nostre condizioni generali, le regole di rimborso e l\'informativa sulla privacy.',
+          intro: 'In Morocco Travel Land diamo priorità alla trasparenza. Si prega di leggere attentamente le nostre condizioni generali, le regole di rimborso e l\'informativa sulla privacy.',
           refundTitle: '1. Termini di Cancellazione e Politica di Rimborso',
           refundDesc: 'Per garantire la prenotazione di guide, mezzi di trasporto privati e riad/hotel di lusso, applichiamo una politica di rimborso scaglionata. Più ci si avvicina alla partenza, maggiore sarà la penale trattenuta:',
           colPeriod: 'Periodo di Cancellazione',
@@ -101,7 +101,7 @@ export default function PrivacyPolicy() {
         return {
           title: '隐私政策与预订条款',
           subtitle: '包含预订条件、分阶段退款政策及数据隐私规范',
-          intro: 'Morocco Travelland 始终致力于提供诚实透明的旅行服务。请在确认行程前仔细阅读我们的预订条款、取消扣费比例以及个人信息保护规则。',
+          intro: 'Morocco Travel Land 始终致力于提供诚实透明的旅行服务。请在确认行程前仔细阅读我们的预订条款、取消扣费比例以及个人信息保护规则。',
           refundTitle: '1. 取消与退款政策条款',
           refundDesc: '为了确保本地私人向导、专属越野车辆以及奢华沙漠营地/高端酒店的提前预订，我们实行分阶段的退款政策。取消申请提交的时间距离出发日期越近，扣除的取消手续费比例越高：',
           colPeriod: '取消申请提交时间',
@@ -116,7 +116,7 @@ export default function PrivacyPolicy() {
           termsTitle: '2. 私人定制旅行通用条款',
           termsItems: [
             '预订与定金：在确认您的私人路线后，需支付一定比例的定金以锁定服务。余款需在旅行开始第一天以现金或商定方式结算。',
-            '路线微调权利：如遭遇不可抗力（如撒哈拉沙漠极端沙尘暴、阿特拉斯山脉积雪封路等），Morocco Travelland 保留微调行程路线的权利，以确保旅客安全。',
+            '路线微调权利：如遭遇不可抗力（如撒哈拉沙漠极端沙尘暴、阿特拉斯山脉积雪封路等），Morocco Travel Land 保留微调行程路线的权利，以确保旅客安全。',
             '旅游保险建议：我们强烈建议所有旅客在出发前购买涵盖国际旅行意外医疗及行程取消险的全面旅游保险。'
           ],
           privacyTitle: '3. 旅客个人数据隐私保护',
@@ -130,7 +130,7 @@ export default function PrivacyPolicy() {
         return {
           title: 'Privacy Policy & Booking Terms',
           subtitle: 'Terms of service, refund policy, and information privacy',
-          intro: 'At Morocco Travelland, we value transparency and trust. Please read our general booking conditions, refund policies, and privacy terms carefully.',
+          intro: 'At Morocco Travel Land, we value transparency and trust. Please read our general booking conditions, refund policies, and privacy terms carefully.',
           refundTitle: '1. Cancellation & Refund Policy',
           refundDesc: 'To secure bookings for guides, private transportation, and boutique riads/hotels, we apply a tiered refund schedule. The closer the cancellation date is to the tour departure, the higher the cancellation fee:',
           colPeriod: 'Cancellation Timeframe',
@@ -145,7 +145,7 @@ export default function PrivacyPolicy() {
           termsTitle: '2. General Booking Conditions',
           termsItems: [
             'Booking Deposit: A deposit is required to secure your private tour. The remaining balance must be settled at the beginning of your trip.',
-            'Itinerary Alterations: Morocco Travelland reserves the right to adjust routes due to force majeure events (Sahara Desert sandstorms, Atlas Mountains snow blocking, etc.) to ensure passenger safety.',
+            'Itinerary Alterations: Morocco Travel Land reserves the right to adjust routes due to force majeure events (Sahara Desert sandstorms, Atlas Mountains snow blocking, etc.) to ensure passenger safety.',
             'Travel Insurance: We highly recommend that all clients purchase comprehensive travel insurance covering tour cancellation, medical emergencies, and luggage loss.'
           ],
           privacyTitle: '3. Privacy & Data Protection Policy',
@@ -163,7 +163,7 @@ export default function PrivacyPolicy() {
   return (
     <>
       <SEOHead
-        title={`${content.title} | Morocco Travelland`}
+        title={`${content.title} | Morocco Travel Land`}
         description={content.intro}
         canonicalPath="/privacy"
         jsonLd={breadcrumbSchema([
@@ -176,7 +176,7 @@ export default function PrivacyPolicy() {
       <section className="page-hero">
         <img
           src="/travel-picture/sahara_camping.webp"
-          alt="Morocco Travelland Booking terms and privacy policy"
+          alt="Morocco Travel Land Booking terms and privacy policy"
           className="page-hero__bg"
           width="1920" height="400"
         />

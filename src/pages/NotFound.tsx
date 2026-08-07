@@ -8,8 +8,8 @@ export default function NotFound() {
   return (
     <>
       <SEOHead
-        title="Page Not Found | Morocco Travelland"
-        description="The page you are looking for doesn't exist on Morocco Travelland."
+        title="Page Not Found | Morocco Travel Land"
+        description="The page you are looking for doesn't exist on Morocco Travel Land."
         noIndex={true}
       />
       <div className="container text-center section" style={{ padding: 'var(--space-32) 0' }}>

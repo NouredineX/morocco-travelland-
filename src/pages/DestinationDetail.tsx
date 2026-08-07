@@ -56,7 +56,7 @@ export default function DestinationDetail() {
         <div className="dest-hero__bg">
           <img
             src={dest.image}
-            alt={`Morocco Travelland - ${locName} travel guide`}
+            alt={`Morocco Travel Land - ${locName} travel guide`}
             className="dest-hero__bg-image"
             width="1920" height="600"
           />

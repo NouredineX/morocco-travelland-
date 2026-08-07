@@ -43,7 +43,7 @@ export default function Header() {
   return (
     <header className={`header ${scrolled ? 'header--scrolled' : ''} ${menuOpen ? 'header--open' : ''}`} id="site-header">
       <div className="header__inner container">
-        <Link to="/" className="header__logo" aria-label="Morocco Travelland Home">
+        <Link to="/" className="header__logo" aria-label="Morocco Travel Land Home">
           <LogoIcon size={38} className="header__logo-icon" />
           <span className="header__logo-text">
             <span className="header__logo-name">{t('logo.name')}</span>

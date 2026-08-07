@@ -112,7 +112,7 @@ export default function TourDetail() {
       {/* ── Hero ──────────────────────────────────────────────── */}
       <section className="tour-hero">
         <div className="tour-hero__bg">
-          <img src={tour.image} alt={`Morocco Travelland ${locTitle}`} className="tour-hero__bg-image" width="1920" height="600" />
+          <img src={tour.image} alt={`Morocco Travel Land ${locTitle}`} className="tour-hero__bg-image" width="1920" height="600" />
           <div className="tour-hero__overlay"></div>
         </div>
         <div className="tour-hero__content container">

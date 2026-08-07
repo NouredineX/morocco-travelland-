@@ -22,7 +22,7 @@ export default function About() {
       <section className="page-hero">
         <img
           src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1920&q=75"
-          alt="About Morocco Travelland team"
+          alt="About Morocco Travel Land team"
           className="page-hero__bg"
           width="1920" height="400"
         />
@@ -89,7 +89,7 @@ export default function About() {
       <section className="section team-sec">
         <div className="container">
           <div className="section-header">
-            <span className="section-label">Morocco Travelland</span>
+            <span className="section-label">Morocco Travel Land</span>
             <h2 className="section-title">{t('about.team')}</h2>
             <div className="divider"></div>
           </div>
@@ -113,7 +113,7 @@ export default function About() {
               <div key={i} className="team-card">
                 <div className="team-card__image-wrap">
                   {member.image ? (
-                    <img src={member.image} alt={`Morocco Travelland team - ${member.name}`} className="team-card__image" loading="lazy" />
+                    <img src={member.image} alt={`Morocco Travel Land team - ${member.name}`} className="team-card__image" loading="lazy" />
                   ) : (
                     <div className="team-card__placeholder">
                       {member.name.charAt(0)}

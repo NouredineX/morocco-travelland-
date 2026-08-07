@@ -7,7 +7,7 @@ export default function LogoIcon({ size = 36, className = '' }: LogoIconProps) {
   return (
     <img
       src="/logo-mtl.png"
-      alt="Morocco Travelland MTL Logo"
+      alt="Morocco Travel Land MTL Logo"
       className={className}
       style={{
         height: size,

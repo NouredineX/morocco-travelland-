@@ -21,7 +21,7 @@ export default function TourCard({ tour }: TourCardProps) {
         <div className="tour-card__image-wrap">
           <img
             src={tour.image}
-            alt={`Morocco Travelland ${locShortTitle} - private tour`}
+            alt={`Morocco Travel Land ${locShortTitle} - private tour`}
             className="tour-card__image"
             loading="lazy"
             width="400"

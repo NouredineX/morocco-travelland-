@@ -38,7 +38,7 @@ export default function BookingForm({ tourTitle = '', isCard = true }: BookingFo
         window.open(url, '_blank');
       } else {
         const subject = `Booking Inquiry – ${formData.tour || 'Custom Tour'}`;
-        const body = `Hello Morocco Travelland,\n\nI would like to book a tour.\n\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nTravel Date: ${formData.date}\nNumber of Travelers: ${formData.travelers}\nTour: ${formData.tour || 'Custom Tour'}\n\nMessage:\n${formData.message}\n\nThank you!`;
+        const body = `Hello Morocco Travel Land,\n\nI would like to book a tour.\n\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nTravel Date: ${formData.date}\nNumber of Travelers: ${formData.travelers}\nTour: ${formData.tour || 'Custom Tour'}\n\nMessage:\n${formData.message}\n\nThank you!`;
         const mailtoUrl = `mailto:${siteConfig.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         window.open(mailtoUrl, '_self');
       }

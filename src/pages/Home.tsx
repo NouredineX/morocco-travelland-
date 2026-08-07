@@ -38,7 +38,7 @@ export default function Home() {
         <div className="hero__bg">
           <img
             src="https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1920&q=80"
-            alt="Morocco Travelland - Private tours across Morocco Sahara Desert"
+            alt="Morocco Travel Land - Private tours across Morocco Sahara Desert"
             className="hero__bg-image"
             fetchPriority="high"
             width="1920"
@@ -162,7 +162,7 @@ export default function Home() {
               const locDestName = getLocalized(dest, 'name');
               return (
                 <Link to={`/morocco-destinations/${dest.slug}`} key={dest.id} className="dest-card" aria-label={`Explore ${locDestName}, Morocco`}>
-                  <img src={dest.image} alt={`Morocco Travelland destination - ${locDestName}`} className="dest-card__image" loading="lazy" width="400" height="300" />
+                  <img src={dest.image} alt={`Morocco Travel Land destination - ${locDestName}`} className="dest-card__image" loading="lazy" width="400" height="300" />
                   <div className="dest-card__overlay">
                     <h3 className="dest-card__name">{locDestName}</h3>
                     <span className="dest-card__cta">{t('destination.explore')} →</span>
@@ -229,7 +229,7 @@ export default function Home() {
         <div className="cta-section__bg">
           <img
             src="/travel-picture/1-13.webp"
-            alt="Morocco Travelland custom tour - Sahara Desert"
+            alt="Morocco Travel Land custom tour - Sahara Desert"
             loading="lazy"
             width="1920"
             height="600"
@@ -254,7 +254,7 @@ export default function Home() {
             {[
               { q: 'Is Morocco safe for tourists?', a: 'Yes! Morocco is one of the safest countries in Africa for tourists. With our private guides, you\'ll have local expertise ensuring your comfort and safety throughout your trip.' },
               { q: 'What is the best time to visit Morocco?', a: 'The best time to visit Morocco is spring (March-May) and autumn (September-November). These seasons offer pleasant temperatures for exploring cities and the desert.' },
-              { q: 'Can I customize my tour itinerary?', a: 'Absolutely! Every Morocco Travelland tour is fully customizable. Tell us your interests, budget, and timeline, and we\'ll craft the perfect itinerary.' },
+              { q: 'Can I customize my tour itinerary?', a: 'Absolutely! Every Morocco Travel Land tour is fully customizable. Tell us your interests, budget, and timeline, and we\'ll craft the perfect itinerary.' },
               { q: 'What type of accommodation is included?', a: 'We use carefully selected traditional riads, boutique hotels, and luxury desert camps. VIP tours include 5-star properties throughout.' },
               { q: 'Do I need a visa for Morocco?', a: 'Citizens of most countries (US, EU, UK, Canada, Australia) can visit Morocco visa-free for up to 90 days. Check with your local embassy for specific requirements.' },
               { q: 'How do I book a tour?', a: 'Simply contact us via WhatsApp, email, or our booking form. We\'ll respond within 24 hours with a customized proposal and pricing.' },

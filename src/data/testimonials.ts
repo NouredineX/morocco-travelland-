@@ -17,7 +17,7 @@ export const testimonials: Testimonial[] = [
     country: 'France',
     avatar: '',
     rating: 5,
-    text: 'Un voyage extraordinaire ! Notre guide était exceptionnel, très professionnel et passionné. Le camp dans le Sahara était magique. Morocco Travelland a dépassé toutes nos attentes. Merci pour ces souvenirs inoubliables !',
+    text: 'Un voyage extraordinaire ! Notre guide était exceptionnel, très professionnel et passionné. Le camp dans le Sahara était magique. Morocco Travel Land a dépassé toutes nos attentes. Merci pour ces souvenirs inoubliables !',
     tourSlug: '15-days-morocco-tour-from-casablanca',
     date: '2026-02-20'
   },
@@ -27,7 +27,7 @@ export const testimonials: Testimonial[] = [
     country: 'Italy',
     avatar: '',
     rating: 5,
-    text: 'Un\'esperienza indimenticabile! Il tour VIP dal Marocco è stato perfetto in ogni dettaglio. Gli hotel 5 stelle, la guida privata, e soprattutto la notte nel deserto del Sahara. Morocco Travelland è il top!',
+    text: 'Un\'esperienza indimenticabile! Il tour VIP dal Marocco è stato perfetto in ogni dettaglio. Gli hotel 5 stelle, la guida privata, e soprattutto la notte nel deserto del Sahara. Morocco Travel Land è il top!',
     tourSlug: '15-days-vip-morocco-tour-from-marrakech',
     date: '2026-04-10'
   },
@@ -47,7 +47,7 @@ export const testimonials: Testimonial[] = [
     country: 'Spain',
     avatar: '',
     rating: 5,
-    text: 'Increíble experiencia en Marruecos! El tour de 7 días desde Tánger fue perfecto para nuestra primera visita. Chefchaouen es un sueño hecho realidad. ¡Volveremos con Morocco Travelland sin duda!',
+    text: 'Increíble experiencia en Marruecos! El tour de 7 días desde Tánger fue perfecto para nuestra primera visita. Chefchaouen es un sueño hecho realidad. ¡Volveremos con Morocco Travel Land sin duda!',
     tourSlug: '7-days-tour-from-tangier-to-marrakech',
     date: '2026-05-05'
   },
@@ -57,7 +57,7 @@ export const testimonials: Testimonial[] = [
     country: 'Australia',
     avatar: '',
     rating: 5,
-    text: 'Traveling solo in Morocco was the best decision I made! Morocco Travelland ensured I felt safe and welcome throughout the entire 10-day journey. The desert sunset was the highlight, absolutely breathtaking.',
+    text: 'Traveling solo in Morocco was the best decision I made! Morocco Travel Land ensured I felt safe and welcome throughout the entire 10-day journey. The desert sunset was the highlight, absolutely breathtaking.',
     tourSlug: '10-days-tour-from-marrakech',
     date: '2026-06-12'
   },
@@ -67,7 +67,7 @@ export const testimonials: Testimonial[] = [
     country: 'Germany',
     avatar: '',
     rating: 5,
-    text: 'Wir hatten eine fantastische Reise! Der 3-Tage-Wüstenausflug von Marrakesch war unglaublich. Die Kamelritt bei Sonnenuntergang und die Nacht unter den Sternen waren unvergesslich. Danke, Morocco Travelland!',
+    text: 'Wir hatten eine fantastische Reise! Der 3-Tage-Wüstenausflug von Marrakesch war unglaublich. Die Kamelritt bei Sonnenuntergang und die Nacht unter den Sternen waren unvergesslich. Danke, Morocco Travel Land!',
     tourSlug: '3-days-desert-tour-from-marrakech',
     date: '2026-04-22'
   },

@@ -1,7 +1,7 @@
 import type { SiteConfig } from '../types';
 
 export const siteConfig: SiteConfig = {
-  name: 'Morocco Travelland',
+  name: 'Morocco Travel Land',
   domain: 'moroccotravelland.com',
   url: 'https://www.moroccotravelland.com',
   email: 'moroccotravellandteam@gmail.com',

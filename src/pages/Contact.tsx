@@ -24,7 +24,7 @@ export default function Contact() {
       <section className="page-hero">
         <img
           src="/travel-picture/sahara_camping.webp"
-          alt="Contact Morocco Travelland team"
+          alt="Contact Morocco Travel Land team"
           className="page-hero__bg"
           width="1920" height="400"
         />
@@ -100,7 +100,7 @@ export default function Contact() {
           style={{ border: 0 }}
           allowFullScreen={true}
           loading="lazy"
-          title="Morocco Travelland Office Map"
+          title="Morocco Travel Land Office Map"
         ></iframe>
       </section>
     </>

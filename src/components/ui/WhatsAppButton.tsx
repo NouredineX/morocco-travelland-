@@ -2,7 +2,7 @@ import { siteConfig } from '../../data/siteConfig';
 import './WhatsAppButton.css';
 
 export default function WhatsAppButton() {
-  const message = encodeURIComponent('Hello! I\'m interested in booking a Morocco tour with Morocco Travelland. Can you help me?');
+  const message = encodeURIComponent('Hello! I\'m interested in booking a Morocco tour with Morocco Travel Land. Can you help me?');
   const url = `https://wa.me/${siteConfig.whatsapp}?text=${message}`;
 
   return (

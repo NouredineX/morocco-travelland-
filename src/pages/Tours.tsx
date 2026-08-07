@@ -55,7 +55,7 @@ export default function Tours() {
   return (
     <>
       <SEOHead
-        title="Morocco Tours & Travel Packages 2026 | Private Tours | Morocco Travelland"
+        title="Morocco Tours & Travel Packages 2026 | Private Tours | Morocco Travel Land"
         description="Browse 30+ private Morocco tours from Marrakech, Casablanca, Fes & Tangier. Desert tours, VIP luxury packages, cultural trips. Best prices guaranteed."
         canonicalPath="/morocco-tours"
         jsonLd={breadcrumbSchema([
