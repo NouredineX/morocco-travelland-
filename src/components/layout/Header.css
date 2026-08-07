@@ -217,11 +217,23 @@
   margin-top: var(--space-10);
 }
 
+.header__mobile-lang {
+  display: none;
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
   .header__nav,
   .header__actions {
     display: none;
+  }
+
+  .header__mobile-lang {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 10;
   }
 
   .header__hamburger {

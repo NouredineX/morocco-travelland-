@@ -74,6 +74,10 @@ export default function Header() {
           </Link>
         </div>
 
+        <div className="header__mobile-lang">
+          <LanguageSwitcher />
+        </div>
+
         <button
           className={`header__hamburger ${menuOpen ? 'header__hamburger--open' : ''}`}
           onClick={() => setMenuOpen(!menuOpen)}
