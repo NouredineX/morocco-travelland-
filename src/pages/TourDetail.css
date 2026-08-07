@@ -267,7 +267,7 @@
 .price-card__amount {
   font-size: var(--fs-3xl);
   font-weight: var(--fw-bold);
-  color: var(--color-primary);
+  color: var(--color-primary-text);
   margin: var(--space-1) 0;
 }
 

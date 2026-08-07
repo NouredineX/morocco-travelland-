@@ -37,7 +37,13 @@ export default function Home() {
       <section className="hero" id="hero">
         <div className="hero__bg">
           <img
-            src="https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1920&q=80"
+            src="https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1200&auto=format&fit=crop&q=75"
+            srcSet="
+              https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=600&auto=format&fit=crop&q=75 600w,
+              https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1200&auto=format&fit=crop&q=75 1200w,
+              https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1920&auto=format&fit=crop&q=75 1920w
+            "
+            sizes="100vw"
             alt="Morocco Travel Land - Private tours across Morocco Sahara Desert"
             className="hero__bg-image"
             fetchPriority="high"

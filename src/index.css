@@ -3,8 +3,6 @@
    Premium Moroccan-inspired palette
    ===================================================== */
 
-/* ---- Google Fonts ---- */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap');
 
 /* ---- CSS Custom Properties ---- */
 :root {
@@ -12,6 +10,7 @@
   --color-primary: hsl(113, 41%, 53%);
   --color-primary-light: hsl(113, 41%, 63%);
   --color-primary-dark: hsl(113, 41%, 43%);
+  --color-primary-text: hsl(113, 60%, 25%);
   --color-primary-alpha: hsla(113, 41%, 53%, 0.12);
 
   --color-secondary: hsl(220, 45%, 18%);
@@ -37,7 +36,7 @@
 
   /* Text */
   --color-text: hsl(210, 25%, 15%);
-  --color-text-secondary: hsl(210, 15%, 40%);
+  --color-text-secondary: hsl(210, 15%, 33%);
   --color-text-light: hsl(210, 10%, 60%);
   --color-text-on-dark: hsl(210, 15%, 95%);
   --color-text-on-primary: #ffffff;
@@ -462,7 +461,7 @@ p {
 .price-amount {
   font-size: var(--fs-xl);
   font-weight: var(--fw-bold);
-  color: var(--color-primary);
+  color: var(--color-primary-text);
 }
 
 .price-amount--lg {

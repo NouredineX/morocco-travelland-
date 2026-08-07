@@ -21,7 +21,13 @@ export default function About() {
       {/* Hero Banner */}
       <section className="page-hero">
         <img
-          src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1920&q=75"
+          src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1200&auto=format&fit=crop&q=75"
+          srcSet="
+            https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=600&auto=format&fit=crop&q=75 600w,
+            https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1200&auto=format&fit=crop&q=75 1200w,
+            https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1920&auto=format&fit=crop&q=75 1920w
+          "
+          sizes="100vw"
           alt="About Morocco Travel Land team"
           className="page-hero__bg"
           width="1920" height="400"

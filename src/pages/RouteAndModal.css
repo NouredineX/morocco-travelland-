@@ -276,7 +276,7 @@
 .booking-modal__price-badge-amount {
   font-size: var(--fs-2xl);
   font-weight: var(--fw-bold);
-  color: var(--color-primary);
+  color: var(--color-primary-text);
   line-height: 1;
 }
 

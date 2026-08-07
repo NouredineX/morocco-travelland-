@@ -113,7 +113,13 @@ export default function Blog() {
           {/* Hero Banner */}
           <section className="page-hero">
             <img
-              src="https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=1920&q=75"
+              src="https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=1200&auto=format&fit=crop&q=75"
+              srcSet="
+                https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=600&auto=format&fit=crop&q=75 600w,
+                https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=1200&auto=format&fit=crop&q=75 1200w,
+                https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=1920&auto=format&fit=crop&q=75 1920w
+              "
+              sizes="100vw"
               alt="Morocco Travel Land Blog and Guides"
               className="page-hero__bg"
               width="1920" height="400"

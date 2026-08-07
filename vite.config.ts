@@ -10,7 +10,11 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        // let Vite handle chunk splitting automatically
+        manualChunks: {
+          'vendor-core': ['react', 'react-dom'],
+          'vendor-router': ['react-router-dom', 'react-helmet-async'],
+          'vendor-i18n': ['i18next', 'react-i18next'],
+        },
       },
     },
   },

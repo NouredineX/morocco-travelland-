@@ -25,7 +25,13 @@ export default function Destinations() {
       {/* Hero Banner */}
       <section className="page-hero">
         <img
-          src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1920&q=75"
+          src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1200&auto=format&fit=crop&q=75"
+          srcSet="
+            https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=600&auto=format&fit=crop&q=75 600w,
+            https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1200&auto=format&fit=crop&q=75 1200w,
+            https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1920&auto=format&fit=crop&q=75 1920w
+          "
+          sizes="100vw"
           alt="Top destinations in Morocco Sahara Desert"
           className="page-hero__bg"
           width="1920" height="400"
