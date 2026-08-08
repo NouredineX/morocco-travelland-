@@ -51,7 +51,6 @@ export default function TourCard({ tour }: TourCardProps) {
           </div>
 
           <div className="tour-card__footer">
-            <span className="price-request">{t('tour.priceOnRequest')}</span>
             <span className="tour-card__cta">{t('tour.viewDetails')} →</span>
           </div>
         </div>

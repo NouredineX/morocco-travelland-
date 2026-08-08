@@ -263,14 +263,6 @@ export default function TourDetail() {
             {/* ── Sidebar ──────────────────────────── */}
             <aside className="tour-sidebar">
               <div className="price-card">
-                <span className="price-card__label">{t('tour.price')}</span>
-                <div className="price-card__amount" style={{ fontSize: '1.75rem', lineHeight: '1.2', margin: 'var(--space-2) 0 var(--space-3)' }}>
-                  {t('tour.priceOnRequest')}
-                </div>
-                <p className="price-card__note">{t('tour.customQuoteNote')}</p>
-
-                <div className="price-card__divider"></div>
-
                 {/* Stats */}
                 <div className="price-card__stats">
                   <div className="price-card__stat">
@@ -349,10 +341,6 @@ export default function TourDetail() {
                     <IconRoute /> {routeStops.slice(0, 4).join(' → ')}{routeStops.length > 4 ? ` +${routeStops.length - 4}` : ''}
                   </span>
                 </div>
-              </div>
-              <div className="booking-modal__price-badge">
-                <div className="booking-modal__price-badge-label">{t('tour.price')}</div>
-                <div className="booking-modal__price-badge-amount" style={{ fontSize: '1.15rem' }}>{t('tour.priceOnRequest')}</div>
               </div>
             </div>
 
