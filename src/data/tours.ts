@@ -4113,7 +4113,7 @@ export const tours: Tour[] = [
     "reviewCount": 20,
     "featured": true,
     "vip": false,
-    "image": "/travel-picture/fes_medina.webp",
+    "image": "/travel-picture/marrakech_sunset_tour.png",
     "gallery": [],
     "highlights": [
       "Fes medina",
