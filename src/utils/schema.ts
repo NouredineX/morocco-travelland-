@@ -76,15 +76,6 @@ export function tourSchema(tour: Tour) {
         url: canonical,
         image: tour.image ? [tour.image] : [],
         provider: { '@id': `${siteConfig.url}/#organization` },
-        offers: {
-          '@type': 'Offer',
-          url: canonical,
-          price: tour.price.toString(),
-          priceCurrency: tour.currency,
-          availability: 'https://schema.org/InStock',
-          seller: { '@id': `${siteConfig.url}/#organization` },
-          ...(tour.pricePerPerson && { priceSpecification: { '@type': 'UnitPriceSpecification', unitText: 'per person' } }),
-        },
         touristType: tour.vip ? 'VIP luxury travelers' : 'Private tour travelers',
         tripOrigin: {
           '@type': 'Place',
@@ -112,13 +103,6 @@ export function tourSchema(tour: Tour) {
         image: tour.image ? [tour.image] : [],
         url: canonical,
         brand: { '@id': `${siteConfig.url}/#organization` },
-        offers: {
-          '@type': 'Offer',
-          url: canonical,
-          price: tour.price.toString(),
-          priceCurrency: tour.currency,
-          availability: 'https://schema.org/InStock',
-        },
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: tour.rating.toString(),

@@ -93,6 +93,12 @@
   transition: transform var(--transition-base);
 }
 
+.price-request {
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  color: var(--color-text-light);
+}
+
 .tour-card:hover .tour-card__cta {
   transform: translateX(4px);
 }

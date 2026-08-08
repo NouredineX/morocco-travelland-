@@ -263,12 +263,11 @@ export default function TourDetail() {
             {/* ── Sidebar ──────────────────────────── */}
             <aside className="tour-sidebar">
               <div className="price-card">
-                <span className="price-card__label">{t('tour.startingFrom')}</span>
-                <div className="price-card__amount">
-                  ${tour.price.toLocaleString()}
-                  {tour.pricePerPerson && <span className="price-card__person"> / {t('tour.person')}</span>}
+                <span className="price-card__label">{t('tour.price')}</span>
+                <div className="price-card__amount" style={{ fontSize: '1.75rem', lineHeight: '1.2', margin: 'var(--space-2) 0 var(--space-3)' }}>
+                  {t('tour.priceOnRequest')}
                 </div>
-                <p className="price-card__note">{t('tour.priceNote')}</p>
+                <p className="price-card__note">{t('tour.customQuoteNote')}</p>
 
                 <div className="price-card__divider"></div>
 
@@ -352,9 +351,8 @@ export default function TourDetail() {
                 </div>
               </div>
               <div className="booking-modal__price-badge">
-                <div className="booking-modal__price-badge-label">{t('tour.from')}</div>
-                <div className="booking-modal__price-badge-amount">${tour.price.toLocaleString()}</div>
-                <div className="booking-modal__price-badge-pp">/ {t('tour.person')}</div>
+                <div className="booking-modal__price-badge-label">{t('tour.price')}</div>
+                <div className="booking-modal__price-badge-amount" style={{ fontSize: '1.15rem' }}>{t('tour.priceOnRequest')}</div>
               </div>
             </div>
 

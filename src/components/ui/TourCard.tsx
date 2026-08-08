@@ -51,11 +51,7 @@ export default function TourCard({ tour }: TourCardProps) {
           </div>
 
           <div className="tour-card__footer">
-            <div className="price">
-              <span className="price-from">{t('tour.from')}</span>
-              <span className="price-amount">${tour.price.toLocaleString()}</span>
-              {tour.pricePerPerson && <span className="price-person">{t('tour.perPerson')}</span>}
-            </div>
+            <span className="price-request">{t('tour.priceOnRequest')}</span>
             <span className="tour-card__cta">{t('tour.viewDetails')} →</span>
           </div>
         </div>

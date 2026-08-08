@@ -56,7 +56,7 @@ export default function Tours() {
     <>
       <SEOHead
         title="Morocco Tours & Travel Packages 2026 | Private Tours | Morocco Travel Land"
-        description="Browse 30+ private Morocco tours from Marrakech, Casablanca, Fes & Tangier. Desert tours, VIP luxury packages, cultural trips. Best prices guaranteed."
+        description="Browse 30+ private Morocco tours from Marrakech, Casablanca, Fes & Tangier. Desert tours, VIP luxury packages, cultural trips."
         canonicalPath="/morocco-tours"
         jsonLd={breadcrumbSchema([
           { name: 'Home', url: '/' },
@@ -117,8 +117,6 @@ export default function Tours() {
               <label className="filters-label">{t('tour.sortBy')}:</label>
               <select className="filters-select" value={sortBy} onChange={e => setSortBy(e.target.value)}>
                 <option value="featured">{t('tour.sortFeatured')}</option>
-                <option value="price-low">{t('tour.sortPriceLow')}</option>
-                <option value="price-high">{t('tour.sortPriceHigh')}</option>
                 <option value="duration-short">{t('tour.sortDurationShort')}</option>
                 <option value="duration-long">{t('tour.sortDurationLong')}</option>
               </select>
