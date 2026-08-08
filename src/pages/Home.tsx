@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import SEOHead from '../components/seo/SEOHead';
@@ -9,9 +10,24 @@ import { organizationSchema, websiteSchema } from '../utils/schema';
 import { useLocalizer } from '../utils/localize';
 import './Home.css';
 
+const heroImages = [
+  '/travel-picture/merzoga.webp',
+  '/travel-picture/marrakech_sunset_tour.png',
+  '/travel-picture/chefchaouen.webp',
+  '/travel-picture/atlas-mountains.webp',
+];
+
 export default function Home() {
   const { t } = useTranslation();
   const { getLocalized } = useLocalizer();
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % heroImages.length);
+    }, 6000);
+    return () => clearInterval(timer);
+  }, []);
 
   const popularTours = tours.filter(to => to.category === 'popular' && !to.vip).slice(0, 8);
   const marrakechTours = tours.filter(to => to.departureCity === 'Marrakech' && !to.vip).slice(0, 4);
@@ -36,20 +52,18 @@ export default function Home() {
       {/* ===== HERO ===== */}
       <section className="hero" id="hero">
         <div className="hero__bg">
-          <img
-            src="https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1200&auto=format&fit=crop&q=75"
-            srcSet="
-              https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=600&auto=format&fit=crop&q=75 600w,
-              https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1200&auto=format&fit=crop&q=75 1200w,
-              https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1920&auto=format&fit=crop&q=75 1920w
-            "
-            sizes="100vw"
-            alt="Morocco Travel Land - Private tours across Morocco Sahara Desert"
-            className="hero__bg-image"
-            fetchPriority="high"
-            width="1920"
-            height="1080"
-          />
+          {heroImages.map((imgUrl, idx) => (
+            <img
+              key={imgUrl}
+              src={imgUrl}
+              alt={`Morocco Travel Land background slide ${idx + 1}`}
+              className={`hero__bg-image ${idx === currentImageIndex ? 'hero__bg-image--active' : ''}`}
+              loading={idx === 0 ? 'eager' : 'lazy'}
+              fetchPriority={idx === 0 ? 'high' : 'low'}
+              width="1920"
+              height="1080"
+            />
+          ))}
           <div className="hero__overlay"></div>
         </div>
         <div className="hero__content container">
